@@ -26,25 +26,25 @@ class Menu extends ComponentBase
                  'title'             => 'Menu class',
                  'description'       => 'The class attribute for the main menu (ul).',
                  'type'              => 'string',
-                 'defaut'            => 'nav navbar-nav'
+                 'default'            => 'nav navbar-nav'
             ],
             'sub-ul-class' => [
                  'title'             => 'Submenu class',
                  'description'       => 'The class attribute for the sub menu (ul).',
                  'type'              => 'string',
-                 'defaut'            => ''
+                 'default'            => ''
             ],
             'main-li-class' => [
                  'title'             => 'Item class',
                  'description'       => 'The class attribute for the menu items (li).',
                  'type'              => 'string',
-                 'defaut'            => ''
+                 'default'            => ''
             ],
             'active-class' => [
                  'title'             => 'Active class',
                  'description'       => 'The class attribute for the active item.',
                  'type'              => 'string',
-                 'defaut'            => 'active'
+                 'default'            => 'active'
             ]
         ];
     }
